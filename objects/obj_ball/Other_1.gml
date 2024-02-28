@@ -1,10 +1,12 @@
 if(bbox_left < 0 or bbox_right > room_width){
 	hspeed = hspeed * -1;
 }
-if (bbox_top > 0 ){
-	vspeed*=-1;
+if (bbox_top < 0 ){
+	vspeed=vspeed*-1;
 }
 
 if (bbox_bottom > room_height){
-	//subtract a life
+	global.player_lives-=1;
+	instance_destroy();
+	instance_create_layer(xstart,ystart,"instances_default",obj_ball,)
 }

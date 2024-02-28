@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "Breakthrough24",
   "resources": [
+    {"id":{"name":"spr_life","path":"sprites/spr_life/spr_life.yy",},"order":4,},
     {"id":{"name":"fnt_game","path":"fonts/fnt_game/fnt_game.yy",},"order":0,},
     {"id":{"name":"spr_star","path":"sprites/spr_star/spr_star.yy",},"order":3,},
     {"id":{"name":"obj_bat","path":"objects/obj_bat/obj_bat.yy",},"order":2,},
