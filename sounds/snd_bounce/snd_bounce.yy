@@ -14,8 +14,8 @@
   "bitRate": 128,
   "volume": 1.0,
   "preload": false,
-  "soundFile": "snd_bounce",
-  "duration": 0.0,
+  "soundFile": "snd_bounce.ogg",
+  "duration": 0.158435,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

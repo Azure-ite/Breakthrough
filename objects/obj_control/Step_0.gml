@@ -1,14 +1,16 @@
-if (instance_number(obj_brick) <= 0){
-room_restart();
+repeat (3)
+	{if (instance_number(obj_brick) <= 0){
+	
+    room_goto_next();
+	
+	}
 }
+
 if (gameover == true){
 	if (keyboard_check_pressed(vk_anykey)){
 		room_restart();
 		global.player_score = 0;
 		global.player_lives = 3;
+		audio_play_sound (snd_click,1,false);
 	}
 }
-
-
-
-

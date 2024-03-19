@@ -14,8 +14,8 @@
   "bitRate": 128,
   "volume": 1.0,
   "preload": false,
-  "soundFile": "snd_click",
-  "duration": 0.0,
+  "soundFile": "snd_click.ogg",
+  "duration": 0.122472,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

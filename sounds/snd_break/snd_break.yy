@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_explode",
+  "name": "snd_break",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -14,8 +14,8 @@
   "bitRate": 128,
   "volume": 1.0,
   "preload": false,
-  "soundFile": "snd_explode",
-  "duration": 0.0,
+  "soundFile": "snd_break.ogg",
+  "duration": 0.224059,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
